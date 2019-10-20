@@ -2,86 +2,86 @@
 <testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="21882" started-at="2019-10-19T23:00:56 IST" finished-at="2019-10-19T23:01:18 IST">
+  <suite name="Suite" duration-ms="18400" started-at="2019-10-20T11:16:35 IST" finished-at="2019-10-20T11:16:53 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="21882" started-at="2019-10-19T23:00:56 IST" finished-at="2019-10-19T23:01:18 IST">
+    <test name="Test" duration-ms="18400" started-at="2019-10-20T11:16:35 IST" finished-at="2019-10-20T11:16:53 IST">
       <class name="com.api.testcases.TC04_ValidateUserDetailsuser_Bret">
-        <test-method status="PASS" signature="getAllusers()[pri:0, instance:com.api.testcases.TC04_ValidateUserDetailsuser_Bret@6e0f5f7f]" name="getAllusers" is-config="true" duration-ms="2759" started-at="2019-10-19T23:01:15 IST" finished-at="2019-10-19T23:01:18 IST">
+        <test-method status="PASS" signature="getUserdetails()[pri:0, instance:com.api.testcases.TC04_ValidateUserDetailsuser_Bret@6e0f5f7f]" name="getUserdetails" is-config="true" duration-ms="1271" started-at="2019-10-20T11:16:52 IST" finished-at="2019-10-20T11:16:53 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getAllusers -->
-        <test-method status="PASS" signature="responseValidation()[pri:0, instance:com.api.testcases.TC04_ValidateUserDetailsuser_Bret@6e0f5f7f]" name="responseValidation" duration-ms="38" started-at="2019-10-19T23:01:18 IST" finished-at="2019-10-19T23:01:18 IST">
+        </test-method> <!-- getUserdetails -->
+        <test-method status="PASS" signature="responseValidation()[pri:0, instance:com.api.testcases.TC04_ValidateUserDetailsuser_Bret@6e0f5f7f]" name="responseValidation" duration-ms="56" started-at="2019-10-20T11:16:53 IST" finished-at="2019-10-20T11:16:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- responseValidation -->
       </class> <!-- com.api.testcases.TC04_ValidateUserDetailsuser_Bret -->
       <class name="com.api.testcases.TC01_UserPosts">
-        <test-method status="PASS" signature="createPosts()[pri:0, instance:com.api.testcases.TC01_UserPosts@5b03b9fe]" name="createPosts" is-config="true" duration-ms="8095" started-at="2019-10-19T23:00:56 IST" finished-at="2019-10-19T23:01:04 IST">
+        <test-method status="PASS" signature="createPosts()[pri:0, instance:com.api.testcases.TC01_UserPosts@5b03b9fe]" name="createPosts" is-config="true" duration-ms="7371" started-at="2019-10-20T11:16:35 IST" finished-at="2019-10-20T11:16:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPosts -->
-        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.api.testcases.TC01_UserPosts@5b03b9fe]" name="checkContentType" duration-ms="7" started-at="2019-10-19T23:01:04 IST" finished-at="2019-10-19T23:01:04 IST">
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.api.testcases.TC01_UserPosts@5b03b9fe]" name="checkContentType" duration-ms="16" started-at="2019-10-20T11:16:42 IST" finished-at="2019-10-20T11:16:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkContentType -->
-        <test-method status="PASS" signature="checkResponseCode()[pri:0, instance:com.api.testcases.TC01_UserPosts@5b03b9fe]" name="checkResponseCode" duration-ms="1" started-at="2019-10-19T23:01:04 IST" finished-at="2019-10-19T23:01:04 IST">
+        <test-method status="PASS" signature="checkResponseCode()[pri:0, instance:com.api.testcases.TC01_UserPosts@5b03b9fe]" name="checkResponseCode" duration-ms="3" started-at="2019-10-20T11:16:42 IST" finished-at="2019-10-20T11:16:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseCode -->
-        <test-method status="PASS" signature="responseBody()[pri:0, instance:com.api.testcases.TC01_UserPosts@5b03b9fe]" name="responseBody" duration-ms="8" started-at="2019-10-19T23:01:04 IST" finished-at="2019-10-19T23:01:04 IST">
+        <test-method status="PASS" signature="responseBody()[pri:0, instance:com.api.testcases.TC01_UserPosts@5b03b9fe]" name="responseBody" duration-ms="13" started-at="2019-10-20T11:16:42 IST" finished-at="2019-10-20T11:16:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- responseBody -->
       </class> <!-- com.api.testcases.TC01_UserPosts -->
       <class name="com.api.testcases.TC03_ListofUsers">
-        <test-method status="PASS" signature="getAllusers()[pri:0, instance:com.api.testcases.TC03_ListofUsers@434a63ab]" name="getAllusers" is-config="true" duration-ms="2987" started-at="2019-10-19T23:01:12 IST" finished-at="2019-10-19T23:01:15 IST">
+        <test-method status="PASS" signature="getAllusers()[pri:0, instance:com.api.testcases.TC03_ListofUsers@434a63ab]" name="getAllusers" is-config="true" duration-ms="2871" started-at="2019-10-20T11:16:49 IST" finished-at="2019-10-20T11:16:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllusers -->
-        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:com.api.testcases.TC03_ListofUsers@434a63ab]" name="checkResponseBody" duration-ms="4" started-at="2019-10-19T23:01:15 IST" finished-at="2019-10-19T23:01:15 IST">
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:com.api.testcases.TC03_ListofUsers@434a63ab]" name="checkResponseBody" duration-ms="5" started-at="2019-10-20T11:16:51 IST" finished-at="2019-10-20T11:16:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseBody -->
-        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.api.testcases.TC03_ListofUsers@434a63ab]" name="checkResponseTime" duration-ms="3" started-at="2019-10-19T23:01:15 IST" finished-at="2019-10-19T23:01:15 IST">
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.api.testcases.TC03_ListofUsers@434a63ab]" name="checkResponseTime" duration-ms="3" started-at="2019-10-20T11:16:51 IST" finished-at="2019-10-20T11:16:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseTime -->
-        <test-method status="PASS" signature="checkresponseCode()[pri:0, instance:com.api.testcases.TC03_ListofUsers@434a63ab]" name="checkresponseCode" duration-ms="1" started-at="2019-10-19T23:01:15 IST" finished-at="2019-10-19T23:01:15 IST">
+        <test-method status="PASS" signature="checkresponseCode()[pri:0, instance:com.api.testcases.TC03_ListofUsers@434a63ab]" name="checkresponseCode" duration-ms="2" started-at="2019-10-20T11:16:51 IST" finished-at="2019-10-20T11:16:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkresponseCode -->
-        <test-method status="PASS" signature="headerValidation()[pri:0, instance:com.api.testcases.TC03_ListofUsers@434a63ab]" name="headerValidation" duration-ms="1" started-at="2019-10-19T23:01:15 IST" finished-at="2019-10-19T23:01:15 IST">
+        <test-method status="PASS" signature="headerValidation()[pri:0, instance:com.api.testcases.TC03_ListofUsers@434a63ab]" name="headerValidation" duration-ms="2" started-at="2019-10-20T11:16:51 IST" finished-at="2019-10-20T11:16:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- headerValidation -->
-        <test-method status="PASS" signature="usernames()[pri:0, instance:com.api.testcases.TC03_ListofUsers@434a63ab]" name="usernames" duration-ms="247" started-at="2019-10-19T23:01:15 IST" finished-at="2019-10-19T23:01:15 IST">
+        <test-method status="PASS" signature="usernames()[pri:0, instance:com.api.testcases.TC03_ListofUsers@434a63ab]" name="usernames" duration-ms="290" started-at="2019-10-20T11:16:51 IST" finished-at="2019-10-20T11:16:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- usernames -->
-        <test-method status="PASS" signature="usersAddresss()[pri:0, instance:com.api.testcases.TC03_ListofUsers@434a63ab]" name="usersAddresss" duration-ms="15" started-at="2019-10-19T23:01:15 IST" finished-at="2019-10-19T23:01:15 IST">
+        <test-method status="PASS" signature="usersAddresss()[pri:0, instance:com.api.testcases.TC03_ListofUsers@434a63ab]" name="usersAddresss" duration-ms="22" started-at="2019-10-20T11:16:52 IST" finished-at="2019-10-20T11:16:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- usersAddresss -->
-        <test-method status="PASS" signature="usersCompanyNames()[pri:0, instance:com.api.testcases.TC03_ListofUsers@434a63ab]" name="usersCompanyNames" duration-ms="17" started-at="2019-10-19T23:01:15 IST" finished-at="2019-10-19T23:01:15 IST">
+        <test-method status="PASS" signature="usersCompanyNames()[pri:0, instance:com.api.testcases.TC03_ListofUsers@434a63ab]" name="usersCompanyNames" duration-ms="17" started-at="2019-10-20T11:16:52 IST" finished-at="2019-10-20T11:16:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- usersCompanyNames -->
       </class> <!-- com.api.testcases.TC03_ListofUsers -->
       <class name="com.api.testcases.TC02_CommentsOnPosts">
-        <test-method status="PASS" signature="createComments()[pri:0, instance:com.api.testcases.TC02_CommentsOnPosts@37d4349f]" name="createComments" is-config="true" duration-ms="7637" started-at="2019-10-19T23:01:04 IST" finished-at="2019-10-19T23:01:12 IST">
+        <test-method status="PASS" signature="createComments()[pri:0, instance:com.api.testcases.TC02_CommentsOnPosts@37d4349f]" name="createComments" is-config="true" duration-ms="6361" started-at="2019-10-20T11:16:42 IST" finished-at="2019-10-20T11:16:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createComments -->
-        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.api.testcases.TC02_CommentsOnPosts@37d4349f]" name="checkContentType" duration-ms="2" started-at="2019-10-19T23:01:12 IST" finished-at="2019-10-19T23:01:12 IST">
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.api.testcases.TC02_CommentsOnPosts@37d4349f]" name="checkContentType" duration-ms="4" started-at="2019-10-20T11:16:49 IST" finished-at="2019-10-20T11:16:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkContentType -->
-        <test-method status="PASS" signature="checkResponseCode()[pri:0, instance:com.api.testcases.TC02_CommentsOnPosts@37d4349f]" name="checkResponseCode" duration-ms="2" started-at="2019-10-19T23:01:12 IST" finished-at="2019-10-19T23:01:12 IST">
+        <test-method status="PASS" signature="checkResponseCode()[pri:0, instance:com.api.testcases.TC02_CommentsOnPosts@37d4349f]" name="checkResponseCode" duration-ms="4" started-at="2019-10-20T11:16:49 IST" finished-at="2019-10-20T11:16:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseCode -->
-        <test-method status="PASS" signature="responseBody()[pri:0, instance:com.api.testcases.TC02_CommentsOnPosts@37d4349f]" name="responseBody" duration-ms="3" started-at="2019-10-19T23:01:12 IST" finished-at="2019-10-19T23:01:12 IST">
+        <test-method status="PASS" signature="responseBody()[pri:0, instance:com.api.testcases.TC02_CommentsOnPosts@37d4349f]" name="responseBody" duration-ms="7" started-at="2019-10-20T11:16:49 IST" finished-at="2019-10-20T11:16:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- responseBody -->

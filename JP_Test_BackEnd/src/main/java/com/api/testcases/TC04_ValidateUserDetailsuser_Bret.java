@@ -16,7 +16,7 @@ public class TC04_ValidateUserDetailsuser_Bret {
 	static JsonPath Jsonvalidate;
 
 	@BeforeClass
-	public static void getAllusers() throws Exception {
+	public static void getUserdetails() throws Exception {
 
 		resp = RestAssured.get(config.getPropertyValue("User_Url"));
 	}

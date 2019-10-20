@@ -32,8 +32,8 @@ public class TC01_UserPosts {
 		json.put("title", "title of the page");
 		json.put("body", "body of the text description");	
 		request.body(json.toString());
-		String carturl=config.getPropertyValue("postURL");
-		response=request.post(carturl);
+		String userpost=config.getPropertyValue("postURL");
+		response=request.post(userpost);
 		Thread.sleep(5000);
 	   }
 	@Test

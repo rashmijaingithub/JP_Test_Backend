@@ -33,8 +33,8 @@ public class TC02_CommentsOnPosts {
 		json.put("email", "test@gmail.com");
 		json.put("body", "body of the text description");	
 		request.body(json.toString());
-		String carturl=config.getPropertyValue("commentsURL");
-		response=request.post(carturl);
+		String usercomments=config.getPropertyValue("commentsURL");
+		response=request.post(usercomments);
 		Thread.sleep(5000);
 	   }
 	@Test
