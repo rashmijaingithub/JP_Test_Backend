@@ -1,0 +1,4 @@
+URL=https://jsonplaceholder.typicode.com/users
+User_Url=https://jsonplaceholder.typicode.com/users?id=1
+postURL=https://jsonplaceholder.typicode.com/posts
+commentsURL=https://jsonplaceholder.typicode.com/posts
